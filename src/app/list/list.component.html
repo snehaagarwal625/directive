@@ -1,21 +1,21 @@
 <div class="test1">
-    <label>
-        <input type="checkbox" name="Sneha" (click)="colorChange($event)">Sneha
+    <label [ngStyle]="{'color':checked?'green':''}">
+        <input type="checkbox" name="Sneha" [(ngModel)]="checked" >Sneha
     </label><br>
-    <label>
-        <input type="checkbox" name="Shakha">Shakha
+    <label [ngStyle]="{'color':checked1?'green':''}">
+        <input type="checkbox" name="Shakha" [(ngModel)]="checked1">Shakha
     </label><br>
-    <label>
-        <input type="checkbox" name="Rekha">Rekha
+    <label [ngStyle]="{'color':checked2?'green':''}">
+        <input type="checkbox" name="Rekha" [(ngModel)]="checked2">Rekha
     </label><br>
-    <label>
-        <input type="checkbox" name="Suraj">Suraj
+    <label [ngStyle]="{'color':checked3?'green':''}">
+        <input type="checkbox" name="Suraj" [(ngModel)]="checked3">Suraj
     </label><br>
-    <label>
-        <input type="checkbox" name="Manoj">Manoj
+    <label [ngStyle]="{'color':checked4?'green':''}">
+        <input type="checkbox" name="Manoj" [(ngModel)]="checked4">Manoj
     </label><br>
-    <label>
-        <input type="checkbox" name="Bipul">Bipul
+    <label [ngStyle]="{'color':checked5?'green':''}">
+        <input type="checkbox" name="Bipul" [(ngModel)]="checked5">Bipul
     </label>
 
     

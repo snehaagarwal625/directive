@@ -6,12 +6,14 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./list.component.css']
 })
 export class ListComponent implements OnInit {
-
+  checked=''
+  checked1=''
+  checked2=''
+  checked3=''
+  checked4=''
+  checked5=''
   constructor() { }
 
   ngOnInit(): void {
-  }
-  colorChange(event : any){
-    alert(event);
   }
 }
